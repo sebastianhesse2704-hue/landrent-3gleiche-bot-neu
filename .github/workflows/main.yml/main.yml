@@ -26,7 +26,7 @@ jobs:
         run: |
           rm -rf project
           mkdir project
-          unzip -q LandRent_3Gleiche_NEUSTART_FIX3_BOT.zip -d project
+          unzip -q LandRent_3Gleiche_Bot_NEUSTART_CLEAN_V2.zip -d project
 
       - name: APK bauen
         working-directory: project
